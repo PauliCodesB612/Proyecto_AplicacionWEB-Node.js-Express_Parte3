@@ -83,8 +83,8 @@ Implementar una **API RESTful segura y modular** que permita:
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/TU-USUARIO/TU-REPO.git
-cd TU-REPO
+git clone https://github.com/PauliCodesB612/Proyecto_AplicacionWEB-Node.js-Express_Parte3.git
+cd Proyecto_AplicacionWEB-Node.js-Express_Parte3
 ```
 
 2. Instalar dependencias:
