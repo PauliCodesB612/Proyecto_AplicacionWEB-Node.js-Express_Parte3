@@ -1,0 +1,135 @@
+/* public/styles.css - Evolución visual del módulo 6 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #eef4fb;
+  --card: #ffffff;
+  --text: #17212f;
+  --muted: #5c6a7a;
+  --primary: #2f80ed;
+  --primary-soft: #d9e9ff;
+  --border: #d8e2ef;
+  --shadow: 0 14px 40px rgba(25, 62, 104, 0.08);
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, #f6f9fd 0%, var(--bg) 100%);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+.page {
+  width: min(1100px, 92%);
+  margin: 48px auto;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.hero-card {
+  padding: 2.5rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  background: var(--primary-soft);
+  color: var(--primary);
+  font-weight: 700;
+  padding: 0.4rem 0.9rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  border: 2px solid var(--primary);
+  padding: 0.85rem 1.2rem;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.actions a:nth-child(2),
+.actions a:nth-child(3) {
+  background: white;
+  color: var(--primary);
+}
+
+.actions a:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(47, 128, 237, 0.16);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.info-card {
+  padding: 1.5rem;
+}
+
+ul {
+  padding-left: 1.2rem;
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+code {
+  background: #f2f6fb;
+  padding: 0.2rem 0.45rem;
+  border-radius: 6px;
+  color: #1a4d8f;
+}
+
+@media (max-width: 640px) {
+  .page {
+    width: 94%;
+    margin: 24px auto;
+  }
+
+  .hero-card,
+  .info-card {
+    padding: 1.2rem;
+  }
+}

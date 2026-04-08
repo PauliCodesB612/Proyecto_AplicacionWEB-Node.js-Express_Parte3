@@ -1,0 +1,25 @@
+{
+  "name": "proyecto_aplicacionweb-nodejs-express",
+  "version": "3.0.0",
+  "description": "Continuación del proyecto de los módulos 6 y 7 con API REST segura, JWT, bcrypt y carga de archivos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Paulina Villegas",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}

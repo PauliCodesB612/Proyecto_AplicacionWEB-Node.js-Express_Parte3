@@ -1,0 +1,7 @@
+[26-02-2026] [11:37:09 a. m.] GET /
+[26-02-2026] [11:37:09 a. m.] GET /api/v1/features/environment
+[26-02-2026] [11:37:09 a. m.] GET /favicon.ico
+[26-02-2026] [11:37:11 a. m.] GET /status
+[26-02-2026] [11:37:11 a. m.] GET /api/v1/features/environment
+[26-02-2026] [11:37:43 a. m.] GET /status
+[26-02-2026] [11:37:43 a. m.] GET /api/v1/features/environment
